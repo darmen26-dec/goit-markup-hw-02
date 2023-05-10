@@ -1,0 +1,138 @@
+:root {
+  --background: #ffffff;
+  --color-text: #212121;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--background);
+  color: var(--color-text);
+}
+.logo-header {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none; /* usuwa podkreślenie */
+  color: #000000;
+}
+span {
+  color: #2196f3;
+}
+.menu-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  text-decoration: none; /* usuwa podkreślenie */
+  color: #212121; /* inaczej Agencja, Portfolio i Kontakt mają inny kolor */
+}
+.menu-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  text-decoration: none; /* usuwa podkreślenie */
+  color: #757575;
+}
+.menu-nav:hover,
+.menu-contact:hover {
+  color: #2196f3;
+}
+.menu-nav:focus,
+.menu-contact:focus {
+  color: #2196f3;
+}
+.hero {
+  background-color: #2f303a;
+}
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  color: #ffffff;
+}
+.button-hero {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.heading-describtion {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+}
+.text-describtion {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #757575;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+}
+.team-background {
+  background: #f5f4fa;
+}
+h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.job-position {
+  font-size: 16px;
+  line-height: 1.2;
+}
+footer {
+  background: #2f303a;
+}
+.logo-footer {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none; /* usuwa podkreślenie */
+  color: #ffffff;
+}
+.address {
+  font-style: normal; /* usuwa kursywę */
+  font-size: 14px;
+  line-height: 1.7;
+  color: #ffffff;
+}
+.footer-contact {
+  font-style: normal; /* usuwa kursywę */
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none; /* usuwa podkreślenie */
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contact:hover {
+  color: #2196f3;
+}
+.footer-contact:focus {
+  color: #2196f3;
+}
+/* PORTFOLIO */
+.button-portfolio {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: #ffffff;
+  background: #2196f3;
+}
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.button-category {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #757575;
+}
