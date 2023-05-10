@@ -1,6 +1,7 @@
 :root {
   --background: #ffffff;
   --color-text: #212121;
+  --selected-text: #2196f3;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -12,16 +13,20 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
   text-decoration: none; /* usuwa podkreślenie */
   color: #000000;
 }
+/* wcześniej w miejsce tego niebieskiego koloru wpisywałam ręcznie "color: #2196f3;", nie wiem czy tak jak teraz ze zmienną 
+jest dobrze, ale mam nadzieję, że tak - resztę z niebieskim kolorem pozmieniałam analogicznie */
 span {
-  color: #2196f3;
+  color: var(--selected-text);
 }
 .menu-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
+  letter-spacing: 0.02em;
   text-decoration: none; /* usuwa podkreślenie */
   color: #212121; /* inaczej Agencja, Portfolio i Kontakt mają inny kolor */
 }
@@ -29,16 +34,17 @@ span {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
+  letter-spacing: 0.02em;
   text-decoration: none; /* usuwa podkreślenie */
   color: #757575;
 }
 .menu-nav:hover,
 .menu-contact:hover {
-  color: #2196f3;
+  color: var(--selected-text);
 }
 .menu-nav:focus,
 .menu-contact:focus {
-  color: #2196f3;
+  color: var(--selected-text);
 }
 .hero {
   background-color: #2f303a;
@@ -47,6 +53,7 @@ h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
+  letter-spacing: 0.06em;
   color: #ffffff;
 }
 .button-hero {
@@ -54,44 +61,52 @@ h1 {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
+  letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--selected-text);
 }
 .heading-describtion {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
+  letter-spacing: 0.03em;
 }
 .text-describtion {
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
   color: #757575;
 }
 h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .team-background {
-  background: #f5f4fa;
+  background-color: #f5f4fa;
 }
 h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .job-position {
   font-size: 16px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 footer {
-  background: #2f303a;
+  background-color: #2f303a;
 }
 .logo-footer {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
   text-decoration: none; /* usuwa podkreślenie */
   color: #ffffff;
 }
@@ -99,20 +114,22 @@ footer {
   font-style: normal; /* usuwa kursywę */
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
   color: #ffffff;
 }
 .footer-contact {
   font-style: normal; /* usuwa kursywę */
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
   text-decoration: none; /* usuwa podkreślenie */
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-contact:hover {
-  color: #2196f3;
+  color: var(--selected-text);
 }
 .footer-contact:focus {
-  color: #2196f3;
+  color: var(--selected-text);
 }
 /* PORTFOLIO */
 .button-portfolio {
@@ -120,19 +137,22 @@ footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  letter-spacing: 0.03em;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
   color: #ffffff;
-  background: #2196f3;
+  background-color: var(--selected-text);
 }
 .project-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 .button-category {
   font-size: 16px;
   line-height: 1.9;
+  letter-spacing: 0.03em;
   color: #757575;
 }
