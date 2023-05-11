@@ -1,6 +1,8 @@
 :root {
   --background: #ffffff;
   --color-text: #212121;
+  --color-text-secondary: #ffffff;
+  --color-text-info: #757575;
   --selected-text: #2196f3;
 }
 body {
@@ -28,7 +30,8 @@ span {
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none; /* usuwa podkreślenie */
-  color: #212121; /* inaczej Agencja, Portfolio i Kontakt mają inny kolor */
+  color: var(--color-text);
+  /* inaczej Agencja, Portfolio i Kontakt mają inny kolor */
 }
 .menu-contact {
   font-weight: 500;
@@ -36,7 +39,7 @@ span {
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none; /* usuwa podkreślenie */
-  color: #757575;
+  color: var(--color-text-info);
 }
 .menu-nav:hover,
 .menu-contact:hover {
@@ -54,7 +57,7 @@ h1 {
   font-size: 44px;
   line-height: 1.4;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--color-text-secondary);
 }
 .button-hero {
   cursor: pointer;
@@ -62,7 +65,7 @@ h1 {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--color-text-secondary);
   background-color: var(--selected-text);
 }
 .heading-describtion {
@@ -75,7 +78,7 @@ h1 {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--color-text-info);
 }
 h2 {
   font-weight: 700;
@@ -96,7 +99,7 @@ h3 {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--color-text-info);
 }
 footer {
   background-color: #2f303a;
@@ -108,14 +111,14 @@ footer {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none; /* usuwa podkreślenie */
-  color: #ffffff;
+  color: var(--color-text-secondary);
 }
 .address {
   font-style: normal; /* usuwa kursywę */
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--color-text-secondary);
 }
 .footer-contact {
   font-style: normal; /* usuwa kursywę */
@@ -141,7 +144,7 @@ footer {
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
-  color: #ffffff;
+  color: var(--color-text-secondary);
   background-color: var(--selected-text);
 }
 .project-name {
@@ -154,5 +157,5 @@ footer {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--color-text-info);
 }
