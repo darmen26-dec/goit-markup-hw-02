@@ -19,8 +19,6 @@ body {
   text-decoration: none; /* usuwa podkreślenie */
   color: #000000;
 }
-/* wcześniej w miejsce tego niebieskiego koloru wpisywałam ręcznie "color: #2196f3;", nie wiem czy tak jak teraz ze zmienną 
-jest dobrze, ale mam nadzieję, że tak - resztę z niebieskim kolorem pozmieniałam analogicznie */
 span {
   color: var(--selected-text);
 }
